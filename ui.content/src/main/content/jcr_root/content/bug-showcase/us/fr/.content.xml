@@ -20,7 +20,7 @@
                 <title
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="bug-showcase/components/title"
-                    jcr:title="UNIQUE-TEXT:ENGLISH"/>
+                    jcr:title="UNIQUE-TEXT:FRENCH"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="bug-showcase/components/container"
