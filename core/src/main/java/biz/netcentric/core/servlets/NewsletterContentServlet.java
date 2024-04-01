@@ -29,7 +29,6 @@ import com.adobe.cq.mcm.campaign.NewsletterException;
 )
 public class NewsletterContentServlet extends SlingAllMethodsServlet {
 
-
     @Reference
     private ContentGenerator contentGenerator;
 
