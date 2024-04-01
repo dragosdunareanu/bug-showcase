@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/bug-showcase",
+        "create path (nt:unstructured) /content/dam/bug-showcase/jcr:content",
+        "set properties on /content/dam/bug-showcase/jcr:content\n  set cq:conf{String} to /conf/bug-showcase\n  set jcr:title{String} to \"Bug Showcase\"\nend"
+    ]
+}

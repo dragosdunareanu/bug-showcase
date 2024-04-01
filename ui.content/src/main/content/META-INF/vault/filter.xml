@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bug-showcase" mode="merge"/>
+    <filter root="/content/bug-showcase" mode="merge"/>
+    <filter root="/content/dam/bug-showcase" mode="merge">
+        <exclude pattern="/content/dam/bug-showcase(/.*)?"/>
+        <include pattern="/content/dam/bug-showcase/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bug-showcase/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bug-showcase" mode="merge"/>
+</workspaceFilter>
